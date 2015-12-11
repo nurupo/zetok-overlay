@@ -28,6 +28,7 @@ RDEPEND="
 	dev-libs/wlc
 	x11-base/xorg-server[wayland]
 	x11-libs/cairo
+	x11-libs/gdk-pixbuf[jpeg]
 	x11-libs/libxkbcommon
 	x11-libs/pango
 	systemd? ( sys-apps/systemd )
