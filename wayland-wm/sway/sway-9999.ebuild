@@ -26,6 +26,7 @@ RDEPEND="
 	dev-libs/json-c
 	dev-libs/libpcre
 	dev-libs/wlc
+	media-gfx/imagemagick[png,raw]
 	x11-base/xorg-server[wayland]
 	x11-libs/cairo
 	x11-libs/gdk-pixbuf[jpeg]
