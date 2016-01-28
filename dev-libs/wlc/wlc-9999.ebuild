@@ -20,7 +20,7 @@ IUSE="systemd test"
 DEPEND="${RDEPEND}
 		media-libs/mesa[egl,gles2,wayland]
 		x11-libs/libX11
-		x11-libs/libxcb
+		x11-libs/libxcb[xkb]
 		x11-libs/xcb-util-image"
 
 RDEPEND="
