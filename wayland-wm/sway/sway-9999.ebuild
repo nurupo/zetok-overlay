@@ -35,6 +35,14 @@ RDEPEND="
 	systemd? ( sys-apps/systemd )
 	"
 
+src_configure() {
+	local mycmakeargs=(
+		-DCMAKE_INSTALL_SYSCONFDIR="/etc"
+	)
+
+	cmake-utils_src_configure
+}
+
 src_install() {
 	cmake-utils_src_install
 	use !systemd && fperms u+s '/usr/bin/sway'
